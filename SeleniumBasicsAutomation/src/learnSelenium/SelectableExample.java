@@ -29,8 +29,7 @@ public class SelectableExample {
 		.clickAndHold(selectable.get(2))
 		.clickAndHold(selectable.get(3));
 		action.build().perform();
-				
-		
+						
 	}
 
 }

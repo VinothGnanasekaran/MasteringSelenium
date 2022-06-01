@@ -29,7 +29,8 @@ public class FileUploadExample2 {
 		/*Windows actions
 		 * String selection is for transferring the String to ToolKit class like 'Copy' Cntrl+C
 		 * ToolKit Class Usage is to virtually hold the copied data of the file path to pass it to system Clipboard
-		 * ROBOT Class is similar class like ACTIONS(useful for browser application) class for Performing Keyboard/Mouse events, but in a Windows application
+		 * ROBOT Class is similar class like ACTIONS(useful for browser application)
+		 *   class for Performing Keyboard/Mouse events, but in a Windows application
 		 */
 		
 		StringSelection selection = new StringSelection ("C:\\Users\\vinot\\Downloads\\Upload.txt");

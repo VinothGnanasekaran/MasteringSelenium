@@ -2,24 +2,24 @@ package testNg;
 
 import org.testng.annotations.Test;
 
-public class FirstSampleClass {
-	@Test 
+public class DriverCarClassWithPriority {
+	@Test (priority=0)
 	public void startCar () {
-		System.out.println("start the car");
+		System.out.println("Start the car");
 	}
-	@Test
+	@Test (priority=1)
 	public void putFirstGear () {
 		System.out.println("First Gear");
 	}
-	@Test
+	@Test (priority=2)
 	public void putSecondGear () {
 		System.out.println("Second Gear");
 	}
-	@Test
+	@Test (priority=3)
 	public void putThirdGear () {
 		System.out.println("Third Gear");
 	}
-	@Test
+	@Test (priority=4)
 	public void putFourthGear () {
 		System.out.println("Fourth Gear");
 	}

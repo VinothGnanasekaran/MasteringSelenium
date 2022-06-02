@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-03T00:01:51 IST" name="Default suite" finished-at="2022-06-03T00:01:51 IST" duration-ms="71">
+    <groups>
+    </groups>
+    <test started-at="2022-06-03T00:01:51 IST" name="Default test" finished-at="2022-06-03T00:01:51 IST" duration-ms="71">
+      <class name="testNg.FirstSampleClass">
+        <test-method signature="putFirstGear()[pri:0, instance:testNg.FirstSampleClass@483f6d77]" started-at="2022-06-03T00:01:51 IST" name="putFirstGear" finished-at="2022-06-03T00:01:51 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFirstGear -->
+        <test-method signature="putFourthGear()[pri:0, instance:testNg.FirstSampleClass@483f6d77]" started-at="2022-06-03T00:01:51 IST" name="putFourthGear" finished-at="2022-06-03T00:01:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putFourthGear -->
+        <test-method signature="putSecondGear()[pri:0, instance:testNg.FirstSampleClass@483f6d77]" started-at="2022-06-03T00:01:51 IST" name="putSecondGear" finished-at="2022-06-03T00:01:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putSecondGear -->
+        <test-method signature="putThirdGear()[pri:0, instance:testNg.FirstSampleClass@483f6d77]" started-at="2022-06-03T00:01:51 IST" name="putThirdGear" finished-at="2022-06-03T00:01:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putThirdGear -->
+        <test-method signature="startCar()[pri:0, instance:testNg.FirstSampleClass@483f6d77]" started-at="2022-06-03T00:01:51 IST" name="startCar" finished-at="2022-06-03T00:01:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startCar -->
+      </class> <!-- testNg.FirstSampleClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

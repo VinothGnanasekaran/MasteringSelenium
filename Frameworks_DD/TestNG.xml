@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Login Suite">
+	<test name = "Login Both Incorrect">
+	<parameter name = "Name" value = "wrongAdmin"> </parameter>
+	<parameter name = "Pass" value = "admin12" > </parameter>
+		<classes>
+			<class name ="loginDD.MultipleLoginCases_BothIncorrect" />
+		</classes>
+	</test>
+	<test name = "Login Incorrect userName">
+	<parameter name ="Name" value ="admin1"></parameter>
+	<parameter name ="Pass" value="admin123"></parameter>
+			<classes>
+			<class name = "loginDD.MultipleLoginCases_IncorrectName" />
+		</classes>
+	</test>
+	<test name = "Login Incorrect Password">
+	<parameter name="Name" value="Admin"> </parameter>
+	<parameter name="Pass" value="admin"></parameter>
+		<classes>
+			<class name = "loginDD.MultipleLoginCases_IncorrectPass" />
+		</classes>
+	</test>
+	<test name = "Login Successful">
+	<parameter name="Name" value="Admin"></parameter>
+	<parameter name="Pass" value="admin123"></parameter>
+		<classes>
+				<class name = "loginDD.MultipleLoginCases" >
+				</class>
+		</classes>
+	</test>
+</suite>

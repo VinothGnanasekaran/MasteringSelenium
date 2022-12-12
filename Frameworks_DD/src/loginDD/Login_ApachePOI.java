@@ -19,27 +19,28 @@ public class Login_ApachePOI {
 
 	public  void readExcelData() throws IOException {
 		FileInputStream excel = new FileInputStream("D:\\Automation\\Data\\LoginData_POI.xlsx");
-		Workbook workBook = new XSSFWorkbook(excel);
-		Sheet sheet = workBook.getSheetAt(0);
+		try (Workbook workBook = new XSSFWorkbook(excel)) {
+			Sheet sheet =workBook.getSheetAt(0);
 
-		Iterator<Row> rowIterator = sheet.iterator();
-		while (rowIterator.hasNext()) {
-			Row rowValue = rowIterator.next();
-			Iterator<Cell> columIterator = rowValue.iterator();
+			Iterator<Row> rowIterator = sheet.iterator();
+			while (rowIterator.hasNext()) {
+				Row rowValue = rowIterator.next();
+				Iterator<Cell> columIterator = rowValue.iterator();
 
-			int i=2;
-			while (columIterator.hasNext()) {
-				if (i%2==0) {
-					userNameList.add(columIterator.next().toString());
-					System.out.println("Username : "+userNameList );
+				int i=2;
+				while (columIterator.hasNext()) {
+					if (i%2==0) {
+						userNameList.add(columIterator.next().toString());
+						System.out.println("Username : "+userNameList );
+					}
+					else {
+						passwordNameList.add(columIterator.next().toString());
+						System.out.println("Password : "+passwordNameList);
+					}
+					i++;
 				}
-				else {
-					passwordNameList.add(columIterator.next().toString());
-					System.out.println("Password : "+passwordNameList);
-				}
-				i++;
+
 			}
-
 		}
 
 	}

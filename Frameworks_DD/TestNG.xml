@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Login for POM - Suite">
+<test name = "PHP travel login test">
+<classes>
+<class name = "pom_Cases.LoginCase"> </class>
+</classes>
+</test>
+</suite>
 
-<suite name = "Login Suite">
+
+
+<!-- This is the below TESTNG suite to excute the Framworks-DataDriver multiple combination of login
+
+<suite name = "Login for DataDriven-Suite">
 	<test name = "Login Both Incorrect">
 	<parameter name = "Name" value = "wrongAdmin"> </parameter>
 	<parameter name = "Pass" value = "admin12" > </parameter>
@@ -31,4 +42,4 @@
 				</class>
 		</classes>
 	</test>
-</suite>
+</suite> -->

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login for POM - Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PHP travel login test(failed)">
+    <classes>
+      <class name="pom_Cases.LoginCase">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- pom_Cases.LoginCase -->
+    </classes>
+  </test> <!-- PHP travel login test(failed) -->
+</suite> <!-- Failed suite [Login for POM - Suite] -->

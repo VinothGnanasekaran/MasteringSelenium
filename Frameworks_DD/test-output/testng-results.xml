@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-12T22:58:54 IST" name="Login for POM - Suite" finished-at="2022-12-12T22:59:25 IST" duration-ms="30760">
+  <suite started-at="2022-12-13T09:29:12 IST" name="Default suite" finished-at="2022-12-13T09:29:34 IST" duration-ms="21819">
     <groups>
     </groups>
-    <test started-at="2022-12-12T22:58:54 IST" name="PHP travel login test" finished-at="2022-12-12T22:59:25 IST" duration-ms="30760">
-      <class name="pom_Cases.LoginCase">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:pom_Cases.LoginCase@242b836]" started-at="2022-12-12T22:58:54 IST" name="openBrowser" finished-at="2022-12-12T22:59:18 IST" duration-ms="23812" status="PASS">
+    <test started-at="2022-12-13T09:29:12 IST" name="Default test" finished-at="2022-12-13T09:29:34 IST" duration-ms="21819">
+      <class name="pom_Cases.LoginCase_Pagefactory">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:pom_Cases.LoginCase_Pagefactory@242b836]" started-at="2022-12-13T09:29:12 IST" name="openBrowser" finished-at="2022-12-13T09:29:28 IST" duration-ms="15495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="Login()[pri:0, instance:pom_Cases.LoginCase@242b836]" started-at="2022-12-12T22:59:18 IST" name="Login" finished-at="2022-12-12T22:59:23 IST" duration-ms="4737" status="PASS">
+        <test-method signature="Login()[pri:0, instance:pom_Cases.LoginCase_Pagefactory@242b836]" started-at="2022-12-13T09:29:28 IST" name="Login" finished-at="2022-12-13T09:29:32 IST" duration-ms="3815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:pom_Cases.LoginCase@242b836]" started-at="2022-12-12T22:59:23 IST" name="closeBroswer" finished-at="2022-12-12T22:59:25 IST" duration-ms="2092" status="PASS">
+        <test-method is-config="true" signature="closeBroswer()[pri:0, instance:pom_Cases.LoginCase_Pagefactory@242b836]" started-at="2022-12-13T09:29:32 IST" name="closeBroswer" finished-at="2022-12-13T09:29:34 IST" duration-ms="2396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBroswer -->
-      </class> <!-- pom_Cases.LoginCase -->
-    </test> <!-- PHP travel login test -->
-  </suite> <!-- Login for POM - Suite -->
+      </class> <!-- pom_Cases.LoginCase_Pagefactory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

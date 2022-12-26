@@ -6,8 +6,11 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
+
+@CucumberOptions(features = "featurefiles/LoginHRMwithDataTablewithoutHeader.feature",glue="stepdefinitions" )
 //@CucumberOptions(features = "featurefiles/openGoogleSearch.feature",glue="stepdefinitions" )
-@CucumberOptions(features = "featurefiles/RegEx.feature",glue="stepdefinitions" )
+//@CucumberOptions(features = "featurefiles/RegEx.feature",glue="stepdefinitions" )
+
 public class RunnerClass {
 
 }

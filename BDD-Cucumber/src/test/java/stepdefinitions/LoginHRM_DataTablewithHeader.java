@@ -13,7 +13,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginHRMDataTablewithHeaders  {
+public class LoginHRM_DataTablewithHeader  {
 	WebDriver driver;
 	@Given("Open chrome browser and navigate to OrangeHRM site")
 	public void open_chrome_browser_and_navigate_to_orange_hrm_site() {

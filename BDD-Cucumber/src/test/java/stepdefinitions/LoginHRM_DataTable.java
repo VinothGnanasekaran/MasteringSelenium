@@ -11,7 +11,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginHRMData {
+public class LoginHRM_DataTable {
 	WebDriver driver;
 	@SuppressWarnings("deprecation")
 	@Given("I want to open browser and navigate to OrangeHRM site")

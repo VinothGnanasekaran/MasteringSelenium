@@ -12,7 +12,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginWithDataTableWithoutHeader {
+public class LoginHRM_DataTablewithoutHeader {
 WebDriver driver;
 	@SuppressWarnings("deprecation")
 	@Given("Open browser and navigate to OrangeHRM site")

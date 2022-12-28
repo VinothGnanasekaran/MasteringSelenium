@@ -39,14 +39,13 @@ import io.cucumber.junit.CucumberOptions;
 //@CucumberOptions(features = "featurefiles/LoginHRM_withExamples.feature",glue="stepdefinitions" )
 
 @CucumberOptions (
-		features = "featurefiles/SimpleHooks.feature",
+		features = "featurefiles/ExtentReport.feature",
 		glue = {"stepdefinitions", "hooks"},
 		monochrome = true,
 		dryRun= false,
-		plugin = {"html:target/cucumberReports/Webreport.hmtl" , "json:target/cucumberReports/Hooks.json", "junit:target/cucumberReports/HooksXML.xml"},
-		tags = "@simplehooks"
+		plugin = {"html:target/cucumberReports/Webreport.hmtl" , "json:target/cucumberReports/Hooks.json"},
+		tags = "@background"
 		)
-		
 public class RunnerClass {
 
 }
